@@ -1,0 +1,19 @@
+header{
+    background-color: hwb(0 4% 95%);
+    color: rgb(5, 5, 5);
+    padding: 10px;
+   
+    justify-content:space-between ;
+}
+.imgenfondo {
+    position: relative;
+    text-align: center;
+    color: white;}
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;}
+nav{
+    background-color: #101010;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;}    

@@ -1,0 +1,8 @@
+.formulario {
+justify-content: center;
+align-items: center;
+display:flex;}
+.mensajee{
+    display: none;
+    color: rgb(128, 0, 0);
+    text-align: center;}
