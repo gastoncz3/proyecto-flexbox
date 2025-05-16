@@ -1,0 +1,23 @@
+.contenedor_tabla{display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+ }
+nav {
+  text-align: center;
+  background-color: #26435c;
+  padding: 15px;
+  background: linear-gradient(to right, rgb(79, 122, 164), rgb(160, 138, 201));
+}
+nav a:hover {
+  background-color: white;
+  color: rgb(13, 14, 13);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}

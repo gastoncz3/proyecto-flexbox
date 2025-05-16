@@ -1,8 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('../img/fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+nav {
+  text-align: center;
+  background-color: #26435c;
+  padding: 15px;
+  background: linear-gradient(to right, rgb(79, 122, 164), rgb(160, 138, 201));
+}
+nav a:hover {
+  background-color: white;
+  color: rgb(13, 14, 13);
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  color: rgb(153, 127, 201);
+}
+
 .formulario {
-justify-content: center;
-align-items: center;
-display:flex;}
-.mensajee{
-    display: none;
-    color: rgb(128, 0, 0);
-    text-align: center;}
+  background-color: white;
+  opacity: 0.8;
+  padding: 20px;
+  max-width: 400px;
+  margin: 30px auto;
+  border-radius: 10px;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+.formulario input[type="submit"] {
+  background-color: rgb(122, 108, 187);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
