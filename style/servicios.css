@@ -1,30 +1,55 @@
 header{
-    background-color: hwb(0 4% 95%);
-    color: rgb(5, 5, 5);
+    background-color: hwb(0 94% 4%);
+    
     padding: 10px;
    
     justify-content:space-between ;
 }
 .imgenfondo {
+   max-width: 2%;
     position: relative;
     text-align: center;
     color: white;}
 body{
+    background-image: url('../img/blanco.jpg');
     margin: 0;
     font-family: Arial, sans-serif;}
 nav {
+  background-color: #9899e4;
   text-align: center;
-  background-color: #26435c;
-  padding: 15px;
-  background: linear-gradient(to right, rgb(79, 122, 164), rgb(160, 138, 201));
+  padding: 2%;
 }
-nav a:hover {
-  background-color: white;
-  color: rgb(13, 14, 13);
-}
+
 nav a {
   color: white;
   text-decoration: none;
-  margin: 0 15px;
+  margin: 0 2%;
   font-weight: bold;
+  padding: 1% 2%;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #006400;
+}
+.cajas{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ border: solid #72649c;
+}
+.caja {
+  flex: 43%;
+  border: solid #72649c;
+}
+h2 {
+  
+  
+  color: rgb(46, 37, 64);
+}
+ul,li  {
+  
+  
+  color: rgb(33, 25, 47);
 }
