@@ -5,17 +5,16 @@ header{
    
     justify-content:space-between ;
 }
-.imgenfondo {
-   max-width: 2%;
-    position: relative;
-    text-align: center;
-    color: white;}
+
 body{
-    background-image: url('../img/blanco.jpg');
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0;
     font-family: Arial, sans-serif;}
 nav {
-  background-color: #9899e4;
+  background-color: #002c8f;
   text-align: center;
   padding: 2%;
 }
@@ -30,26 +29,41 @@ nav a {
 }
 
 nav a:hover {
-  background-color: white;
-  color: #006400;
+  background-color: rgb(226, 224, 237);
+  color: rgb(9, 8, 9);
 }
 .cajas{
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
- border: solid #72649c;
+ border: solid #002c8f;
 }
 .caja {
   flex: 43%;
-  border: solid #72649c;
+  border: solid #002c8f;
 }
 h2 {
   
   
-  color: rgb(46, 37, 64);
+  color: #002c8f
 }
-ul,li  {
-  
-  
-  color: rgb(33, 25, 47);
+ul,li,p {
+ 
+  font-family: Arial, sans-serif;
+  color: #002c8f;
 }
+h3 {
+  color: #002c8f;
+  text-align: center;
+}
+.imagenes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; 
+
+}
+img {
+  width: 30%;
+  height: auto;}
